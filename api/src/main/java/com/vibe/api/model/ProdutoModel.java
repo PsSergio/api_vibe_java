@@ -9,12 +9,24 @@ public class ProdutoModel {
     private String subDescProduto;
 
     private CategoriaModel categoria;
+
+    private ImageModel images;
+
+    private Float precoProduto;
     public Integer getCodigoProduto(){
         return codigoProduto;
 
     }
 
-    private ImageModel images;
+    public Float getPrecoProduto() {
+        return precoProduto;
+    }
+
+    public void setPrecoProduto(Float precoProduto) {
+        this.precoProduto = precoProduto;
+    }
+
+
 
     public ImageModel getImages() {
         return images;

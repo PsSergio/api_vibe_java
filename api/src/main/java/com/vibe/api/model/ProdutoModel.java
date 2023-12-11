@@ -13,6 +13,17 @@ public class ProdutoModel {
     private ImageModel images;
 
     private Float precoProduto;
+
+    private PacoteModel pacoteProduto;
+
+    public PacoteModel getPacoteProduto() {
+        return pacoteProduto;
+    }
+
+    public void setPacoteProduto(PacoteModel pacoteProduto) {
+        this.pacoteProduto = pacoteProduto;
+    }
+
     public Integer getCodigoProduto(){
         return codigoProduto;
 

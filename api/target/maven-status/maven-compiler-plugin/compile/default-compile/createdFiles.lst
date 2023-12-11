@@ -1,0 +1,3 @@
+com\vibe\api\model\ProdutoModel.class
+com\vibe\api\controller\ProdutoController.class
+com\vibe\api\ApiApplication.class

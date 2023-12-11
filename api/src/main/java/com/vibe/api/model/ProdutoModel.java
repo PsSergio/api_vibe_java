@@ -13,17 +13,6 @@ public class ProdutoModel {
     private ImageModel images;
 
     private Float precoProduto;
-
-    private String versaoProduto;
-
-    public String getVersaoProduto() {
-        return versaoProduto;
-    }
-
-    public void setVersaoProduto(String versaoProduto) {
-        this.versaoProduto = versaoProduto;
-    }
-
     public Integer getCodigoProduto(){
         return codigoProduto;
 
@@ -36,6 +25,8 @@ public class ProdutoModel {
     public void setPrecoProduto(Float precoProduto) {
         this.precoProduto = precoProduto;
     }
+
+
 
     public ImageModel getImages() {
         return images;

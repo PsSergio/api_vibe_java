@@ -1,0 +1,5 @@
+# Created at 2023-12-11T21:38:21.816
+Boot Manifest-JAR contains absolute paths in classpath 'G:\api_vibe_java\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

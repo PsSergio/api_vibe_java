@@ -13,7 +13,7 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("produto/")
-@CrossOrigin(origins = "https://pssergio.github.io/VIBE-PROJECT/", maxAge = 3600)
+@CrossOrigin(origins = "https://pssergio.github.io", maxAge = 3600)
 
 public class ProdutoController {
 
